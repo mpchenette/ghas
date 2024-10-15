@@ -12,4 +12,6 @@ GitHub Advanced Security
 ## Demo Steps
 ### Secret Scanning
 #### Push Protection
+1. View the `Enable/Disable` button for Push protection under repo Settings→Code Security
 1. Add a new GitHub PAT to `main.py`. Attempt to push. View error message.
+  - `git reset --soft HEAD^` to undo a commit
