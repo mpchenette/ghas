@@ -8,3 +8,8 @@ GitHub Advanced Security
 1. `pip install flask`
 1. `pip install Flask flask_httpauth`
 1. `python3 main.py`
+
+## Demo Steps
+### Secret Scanning
+#### Push Protection
+1. Add a new GitHub PAT to `main.py`. Attempt to push. View error message.
