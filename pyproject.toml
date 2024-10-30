@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "ghas"
+version = "0.1.0"
+description = "GitHub Advanced Security"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    'flask==2.3.1',
+    'Flask-HTTPAuth==4.8.0',
+]
+
+[project.scripts]
+python-flask-demo-app = "python_flask_demo_app:main"
