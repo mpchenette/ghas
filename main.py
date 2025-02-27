@@ -5,6 +5,7 @@ from flask_httpauth import HTTPBasicAuth
 import sqlite3
 import logging
 
+azure_storage_account_access_key = 'TbAkvkvC9IRj1HdZ7H1KRGRmBgDthQeA2rtErSV9s7dWy3hfo8Xwf8uX1ixBd+8cWZv029AB9uCp+AStXS496w=='
 
 LOG = logging.getLogger(__name__)
 
